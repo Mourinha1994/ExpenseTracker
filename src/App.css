@@ -59,6 +59,14 @@
     letter-spacing: 1px;
     margin: 5px 0;
   }
+
+  .plus {
+    color: #2ecc71;
+  }
+
+  .minus {
+    color: #c0392b;
+  }
   
   .money.plus {
     color: #2ecc71;
