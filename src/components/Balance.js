@@ -14,7 +14,7 @@ export const Balance = () => {
     return (
         <div>
             <h4>Seu saldo:</h4>
-            <h1 className={ total > 0 ? 'plus' : 'minus'}>R$ {total}</h1>
+            <h1 className={ total >= 0 ? 'plus' : 'minus'}>R$ {total}</h1>
         </div>
     )
 }
